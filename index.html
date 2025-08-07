@@ -1,0 +1,267 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Youtube - 07 de Julho de 2025</title>
+    <link rel="stylesheet" href="./assets/css/style.css" />
+    <link
+      rel="shortcut icon"
+      href="./assets/images/faviconyoutube.png"
+      type="image/x-icon"
+    />
+  </head>
+  <body>
+    <header class="header">
+      <div class="container-header">
+        <div class="left-header">
+          <!-- menu (pode continuar PNG ou trocar por SVG) -->
+          <button class="btn-icon" aria-label="Abrir menu">
+            <svg width="20" height="20" viewBox="0 0 24 24" fill="none" aria-hidden="true">
+              <path d="M3 6H21M3 12H21M3 18H21" stroke="currentColor" stroke-width="1.6" stroke-linecap="round"/>
+            </svg>
+          </button>
+
+          <!-- logo: mantendo o PNG (se preferir SVG, troque aqui) -->
+          <img src="./assets/images/youtube 1.png" alt="logo youtube" class="logo-img" />
+        </div>
+
+        <!-- SEARCH: substitui a imagem por input + botão (ícone SVG) -->
+        <form class="search-form" role="search" action="#" method="GET">
+          <input
+            class="search-input"
+            type="search"
+            name="q"
+            placeholder="Pesquisar"
+            aria-label="Pesquisar"
+          />
+          <button class="btn-icon search-btn" aria-label="Pesquisar">
+            <!-- lupa: usa currentColor -->
+            <svg width="20" height="20" viewBox="0 0 24 24" fill="none" aria-hidden="true">
+              <path d="M21 21L15 15" stroke="currentColor" stroke-width="1.6" stroke-linecap="round"/>
+              <path d="M11 19C15.4183 19 19 15.4183 19 11C19 6.58172 15.4183 3 11 3C6.58172 3 3 6.58172 3 11C3 15.4183 6.58172 19 11 19Z" stroke="currentColor" stroke-width="1.6" stroke-linecap="round"/>
+            </svg>
+          </button>
+        </form>
+
+        <div class="rigth-header">
+         <button id="button" class="style-scope yt-icon-button" aria-label="Notificações">
+  <yt-icon-badge-shape><div class="yt-spec-icon-badge-shape yt-spec-icon-badge-shape--type-notification"><div class="yt-spec-icon-badge-shape__icon"><span class="ytIconWrapperHost"><span class="yt-icon-shape yt-spec-icon-shape"><div style="width: 100%; height: 100%; display: block; fill: currentcolor;"><svg xmlns="http://www.w3.org/2000/svg" fill="currentColor" height="24" viewBox="0 0 24 24" width="24" focusable="false" aria-hidden="true" style="pointer-events: none; display: inherit; width: 100%; height: 100%;"><path clip-rule="evenodd" d="m13.497 4.898.053.8.694.4C15.596 6.878 16.5 8.334 16.5 10v2.892c0 .997.27 1.975.784 2.83L18.35 17.5H5.649l1.067-1.778c.513-.855.784-1.833.784-2.83V10c0-1.666.904-3.122 2.256-3.902l.694-.4.053-.8c.052-.78.703-1.398 1.497-1.398.794 0 1.445.618 1.497 1.398ZM6 10c0-2.224 1.21-4.165 3.007-5.201C9.11 3.236 10.41 2 12 2c1.59 0 2.89 1.236 2.993 2.799C16.79 5.835 18 7.776 18 10v2.892c0 .725.197 1.436.57 2.058l1.521 2.535c.4.667-.08 1.515-.857 1.515H15c0 .796-.316 1.559-.879 2.121-.562.563-1.325.879-2.121.879s-1.559-.316-2.121-.879C9.316 20.56 9 19.796 9 19H4.766c-.777 0-1.257-.848-.857-1.515L5.43 14.95c.373-.622.57-1.333.57-2.058V10Zm4.5 9c0 .398.158.78.44 1.06.28.282.662.44 1.06.44s.78-.158 1.06-.44c.282-.28.44-.662.44-1.06h-3Z" fill-rule="evenodd"></path></svg></div></span></span></div></div></yt-icon-badge-shape>
+</button>
+
+          <button class="btn-avatar" aria-label="Abrir perfil">
+            <img
+              class="avatar-header"
+              src="./assets/images/perfilYoutube.jpg"
+              alt="meu avatar de perfil"
+            />
+          </button>
+        </div>
+      </div>
+    </header>
+
+    <main>
+      <section class="watching-video">
+        <div class="container-watching">
+          <div class="video-frame">
+            <iframe
+              src="https://www.youtube.com/embed/DqC8R2p0lls?si=obyheSGtB3ViPJc5"
+              title="YouTube video player"
+              frameborder="0"
+              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+              referrerpolicy="strict-origin-when-cross-origin"
+              allowfullscreen
+            ></iframe>
+          </div>
+
+          <p class="description-video">Lançamento Santander Bootcamp 2025</p>
+
+          <div class="video-actions">
+            <div class="channel-infos">
+              <img
+                src="https://yt3.ggpht.com/_HfgLNdU77la-nFe97KHYFdhfi1IH-1J0I9WUfC9vOeQZWXl53aPGiQG3y2MMwWz0wjgFN56Eiw=s88-c-k-c0x00ffffff-no-rj"
+                alt="logo dio me"
+              />
+              <div class="titles">
+                <p class="titulo-canal">DIO</p>
+                <p class="subtitulo-canal">122 mil inscritos</p>
+              </div>
+            </div>
+
+            <button class="subscribe-btn">INSCREVA-SE</button>
+
+            <!-- Ações transformadas em botões com SVG -->
+            <div class="actions-row">
+              <button class="action-btn" aria-label="Curtir">
+                <svg class="icon" viewBox="0 0 24 24" fill="none" aria-hidden="true">
+                  <!-- thumb up -->
+                  <path d="M14 9V5C14 4.204 13.684 3.441 13.121 2.879C12.558 2.316 11.795 2 11 2L7 11V22H18.28C18.763 22.005 19.231 21.836 19.598 21.524C19.965 21.212 20.208 20.777 20.28 20.3L21.66 11.3C21.704 11.013 21.684 10.721 21.603 10.442C21.522 10.164 21.382 9.906 21.192 9.687C21.002 9.469 20.766 9.294 20.502 9.175C20.238 9.057 19.95 8.997 19.66 9H14" stroke="currentColor" stroke-width="1.4" stroke-linecap="round" stroke-linejoin="round"/>
+                  <path d="M7 22H4C3.47 22 2.961 21.789 2.586 21.414C2.211 21.039 2 20.53 2 20V13C2 12.47 2.211 11.961 2.586 11.586C2.961 11.211 3.47 11 4 11H7" stroke="currentColor" stroke-width="1.4" stroke-linecap="round" stroke-linejoin="round"/>
+                </svg>
+                <span class="count">2 mil</span>
+              </button>
+
+              <button class="action-btn" aria-label="Não gostei">
+                <svg class="icon" viewBox="0 0 24 24" fill="none" aria-hidden="true">
+                  <!-- thumb down -->
+                  <path d="M17 2H19.67C20.236 1.99 20.786 2.188 21.215 2.557C21.645 2.926 21.924 3.439 22 4V11C21.924 11.561 21.645 12.074 21.215 12.443C20.786 12.812 20.236 13.01 19.67 13H17" stroke="currentColor" stroke-width="1.4" stroke-linecap="round" stroke-linejoin="round"/>
+                  <path d="M10 15V19C10 19.796 10.316 20.559 10.879 21.121C11.441 21.684 12.204 22 13 22L17 13V2H5.72C5.238 1.995 4.77 2.164 4.402 2.476C4.035 2.788 3.792 3.223 3.72 3.7L2.34 12.7C2.296 12.987 2.316 13.279 2.397 13.558C2.478 13.836 2.618 14.094 2.808 14.312C2.998 14.531 3.234 14.706 3.498 14.824C3.763 14.943 4.05 15.003 4.34 15H10Z" stroke="currentColor" stroke-width="1.4" stroke-linecap="round" stroke-linejoin="round"/>
+                </svg>
+              </button>
+
+              <button class="action-btn" aria-label="Compartilhar">
+                <svg class="icon" viewBox="0 0 24 24" fill="none" aria-hidden="true">
+                  <path d="M18 8C19.657 8 21 6.657 21 5C21 3.343 19.657 2 18 2C16.343 2 15 3.343 15 5C15 6.657 16.343 8 18 8Z" stroke="currentColor" stroke-width="1.4" stroke-linecap="round" stroke-linejoin="round"/>
+                  <path d="M6 15C7.657 15 9 13.657 9 12C9 10.343 7.657 9 6 9C4.343 9 3 10.343 3 12C3 13.657 4.343 15 6 15Z" stroke="currentColor" stroke-width="1.4" stroke-linecap="round" stroke-linejoin="round"/>
+                  <path d="M18 22C19.657 22 21 20.657 21 19C21 17.343 19.657 16 18 16C16.343 16 15 17.343 15 19C15 20.657 16.343 22 18 22Z" stroke="currentColor" stroke-width="1.4" stroke-linecap="round" stroke-linejoin="round"/>
+                  <path d="M8.59 13.51L15.42 17.49" stroke="currentColor" stroke-width="1.4" stroke-linecap="round" stroke-linejoin="round"/>
+                  <path d="M15.41 6.51L8.59 10.49" stroke="currentColor" stroke-width="1.4" stroke-linecap="round" stroke-linejoin="round"/>
+                </svg>
+              </button>
+
+              <button class="action-btn" aria-label="Download">
+                <svg class="icon" viewBox="0 0 24 24" fill="none" aria-hidden="true">
+                  <path d="M21 15V19C21 19.53 20.789 20.039 20.414 20.414C20.039 20.789 19.53 21 19 21H5C4.47 21 3.961 20.789 3.586 20.414C3.211 20.039 3 19.53 3 19V15" stroke="currentColor" stroke-width="1.4" stroke-linecap="round" stroke-linejoin="round"/>
+                  <path d="M7 10L12 15L17 10" stroke="currentColor" stroke-width="1.4" stroke-linecap="round" stroke-linejoin="round"/>
+                  <path d="M12 15V3" stroke="currentColor" stroke-width="1.4" stroke-linecap="round" stroke-linejoin="round"/>
+                </svg>
+              </button>
+            </div>
+          </div>
+
+          <p class="views">24 mil visualizações • Transmitido há 2 meses</p>
+
+          <div class="more">
+            <p>Acompanhe o lançamento da 5ª edição do Santander Bootcamp, dessa vez com 3 trilhas incríveis para você escolher: </p>
+            <ul>
+              <li>Santander Bootcamp 2025 - 5ª.Ed | Back-end com Java </li>
+              <li>Santander Bootcamp 2025 - 5ª.Ed | Back-end com Python </li>
+              <li>Santander Bootcamp 2025 - 5ª.Ed | Front-end  </li>
+            </ul>
+          </div>
+        </div>
+
+        <aside>
+
+          <div class="videos-aside">
+          
+            <div class="video-aside">
+
+              <img src="./assets/images/Video01.png" alt="video 01 youtube">
+
+              <div class="titles">
+              <p class="main-title">Geração Tech Unimed - BH - Ciência de Dados</p>
+              <p class="subtitle-sec">DigitalInnovationOne</p>
+              <p class="subtitle-sec">2,1 mil visualizações Transmitido há 2 dias</p>
+              </div>
+            </div>
+
+             <div class="video-aside">
+
+              <img src="./assets/images/Video02.png" alt="video 02 youtube">
+
+              <div class="titles">
+              <p class="main-title">Scrum Talks</p>
+              <p class="subtitle-sec">DigitalInnovationOne</p>
+              <p class="subtitle-sec">1,6 mil visualizações Transmitido há 3 dias</p>
+              </div>
+            </div>
+
+             <div class="video-aside">
+
+              <img src="./assets/images/Video03.png" alt="video 03 youtube">
+
+              <div class="titles">
+              <p class="main-title">Machine Learning Avançado - Fast Track</p>
+              <p class="subtitle-sec">DigitalInnovationOne</p>
+              <p class="subtitle-sec">1,7 mil visualizações Transmitido há 4 dias</p>
+              </div>
+            </div>
+
+             <div class="video-aside">
+
+              <img src="./assets/images/Video04.png" alt="video 04 youtube">
+
+              <div class="titles">
+              <p class="main-title">Global Skills #2 - Project Planning</p>
+              <p class="subtitle-sec">DigitalInnovationOne</p>
+              <p class="subtitle-sec">971 visualizações Transmitido há 5 dias</p>
+              </div>
+            </div>
+
+             <div class="video-aside">
+
+              <img src="./assets/images/Video05.png" alt="video 05 youtube">
+
+              <div class="titles">
+              <p class="main-title">Como aprender a programar Python do ZERO</p>
+              <p class="subtitle-sec">DigitalInnovationOne</p>
+              <p class="subtitle-sec">711 visualizações Transmitido há 6 dias</p>
+              </div>
+            </div>
+            
+            <!-- Dupliquei os videos -->
+             <div class="video-aside">
+
+              <img src="./assets/images/Video01.png" alt="video 01 youtube">
+
+              <div class="titles">
+              <p class="main-title">Geração Tech Unimed - BH - Ciência de Dados</p>
+              <p class="subtitle-sec">DigitalInnovationOne</p>
+              <p class="subtitle-sec">2,1 mil visualizações Transmitido há 2 dias</p>
+              </div>
+            </div>
+
+             <div class="video-aside">
+
+              <img src="./assets/images/Video02.png" alt="video 02 youtube">
+
+              <div class="titles">
+              <p class="main-title">Scrum Talks</p>
+              <p class="subtitle-sec">DigitalInnovationOne</p>
+              <p class="subtitle-sec">1,6 mil visualizações Transmitido há 3 dias</p>
+              </div>
+            </div>
+
+             <div class="video-aside">
+
+              <img src="./assets/images/Video03.png" alt="video 03 youtube">
+
+              <div class="titles">
+              <p class="main-title">Machine Learning Avançado - Fast Track</p>
+              <p class="subtitle-sec">DigitalInnovationOne</p>
+              <p class="subtitle-sec">1,7 mil visualizações Transmitido há 4 dias</p>
+              </div>
+            </div>
+
+             <div class="video-aside">
+
+              <img src="./assets/images/Video04.png" alt="video 04 youtube">
+
+              <div class="titles">
+              <p class="main-title">Global Skills #2 - Project Planning</p>
+              <p class="subtitle-sec">DigitalInnovationOne</p>
+              <p class="subtitle-sec">971 visualizações Transmitido há 5 dias</p>
+              </div>
+            </div>
+
+             <div class="video-aside">
+
+              <img src="./assets/images/Video05.png" alt="video 05 youtube">
+
+              <div class="titles">
+              <p class="main-title">Como aprender a programar Python do ZERO</p>
+              <p class="subtitle-sec">DigitalInnovationOne</p>
+              <p class="subtitle-sec">711 visualizações Transmitido há 6 dias</p>
+              </div>
+            </div>
+
+            
+          </div>         
+
+        </aside>
+      </section>
+    </main>
+    <footer></footer>
+  </body>
+</html>
